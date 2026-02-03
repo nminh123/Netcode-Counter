@@ -1,0 +1,7 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="root" style="flex-grow: 1; align-items: center; justify-content: center; align-content: center;">
+        <ui:Label text="0" name="number" style="width: 20%; height: 30%; font-size: 120px; -unity-text-align: middle-center; color: rgb(255, 255, 255);"/>
+        <ui:Button text="Count" name="count_btn" style="margin-top: 26px; margin-right: 26px; margin-bottom: 26px; margin-left: 26px; width: 15%; height: 10%; font-size: 55px;"/>
+        <ui:Button text="Reset" name="reset_btn" style="margin-top: 26px; margin-right: 26px; margin-bottom: 26px; margin-left: 26px; width: 15%; height: 10%; font-size: 55px;"/>
+    </ui:VisualElement>
+</ui:UXML>
