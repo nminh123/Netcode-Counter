@@ -25,6 +25,11 @@ namespace MCounter
             CountNumber.OnValueChanged += UpdateUI;
         }
 
+        public override void OnNetworkDespawn()
+        {
+            CountNumber.OnValueChanged -= UpdateUI;
+        }
+
         [Rpc(SendTo.Server, InvokePermission = RpcInvokePermission.Everyone)]
         private void IncreaseCounterNumberServerRpc()
         {
